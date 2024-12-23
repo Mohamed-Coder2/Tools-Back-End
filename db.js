@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const { Sequelize, DataTypes } = require('sequelize');
 const sequelize = new Sequelize(
-  `postgres://postgres:100603@postgresql:5432/ToolsProject`,
+  `postgres://postgres:100603@postgresql:5432/template1`,
   { dialect: 'postgres' }
 );
 
