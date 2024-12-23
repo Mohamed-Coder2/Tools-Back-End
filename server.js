@@ -20,7 +20,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
 app.use(cors({
-    origin: 'https://tools-project-mo-emad-dev.apps.rm3.7wse.p1.openshiftapps.com', // Replace if port somehow changes
+    origin: 'https://tools-project-2425-mo-emad-dev.apps.rm3.7wse.p1.openshiftapps.com', // Replace if port somehow changes
     credentials: true // for cookies
 }))
 
